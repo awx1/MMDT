@@ -3,7 +3,7 @@ import sys
 import json
 
 # Specify the directory you want to start from
-root_dir = '/Users/alexxiong/Downloads/results/vispr'
+root_dir = ''
 
 def inList(wordList, response):
     for word in wordList:

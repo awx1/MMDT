@@ -31,7 +31,19 @@ We provide our dataset at [this URL](https://drive.google.com/file/d/1RLdkErIxyV
 ├── data
 │   └── image-to-text
 ├── mmdt
+│   |── models
+│   |   └── image-to-text
+│   └── perspectives
+│       └── privacy
 ├── scripts
+├── results
+│   |── image-to-text
+│   |    └── privacy
+│   |        └── vispr
+│   └── vispr
+│       └── _results.json
+│       └── ...
+│       └── run.py
 ├── README.md
 └── requirements.txt
 ```
@@ -40,6 +52,17 @@ We provide our dataset at [this URL](https://drive.google.com/file/d/1RLdkErIxyV
 
 ```bash
 bash scripts/privacy-vispr.sh
+```
+
+The results will propogate in results/image-to-text/privacy/vispr/...
+
+### Evaluate the model outputs
+
+Before running, edit the `root_dir` var to point to .../results/vispr
+Results are included from previous evaluations.
+
+```bash
+python3 results/vispr/run.py
 ```
 
 ## License
