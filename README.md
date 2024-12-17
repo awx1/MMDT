@@ -11,7 +11,7 @@ This research endeavor is designed to help researchers and practitioners better 
 ### Clone the repository
 
 ```bash
-git clone https://github.com/AI-secure/MMDT.git && cd MMDT
+git clone https://github.com/awx1/MMDT && cd MMDT
 ```
 
 ### Install requirements
